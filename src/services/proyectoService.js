@@ -2,32 +2,32 @@ const proyectoService = (() => {
   let proyectos = [
     {
       id: 1,
-      titulo: 'Biblioteca digital escolar',
-      categoria: 'Tecnologia',
+      titulo: 'Simulacion Entrevista Laboral',
+      categoria: 'Ingles 3',
       estado: true,
     },
     {
       id: 2,
-      titulo: 'Huerta educativa comunitaria',
-      categoria: 'Ambiente',
+      titulo: 'Gestion de Proyectos Educativos',
+      categoria: 'Programacion Visual',
       estado: false,
     },
     {
       id: 3,
-      titulo: 'Taller de lectura creativa',
-      categoria: 'Lengua',
+      titulo: 'Diseño de Base de Datos para un Hospital',
+      categoria: 'Base de Datos 2',
       estado: true,
     },
     {
       id: 4,
-      titulo: 'Laboratorio de ciencias móviles',
-      categoria: 'Ciencias',
+      titulo: 'Resolución de Sistemas de Ecuaciones por Método de Gauss',
+      categoria: 'Algebra 1',
       estado: true,
     },
     {
       id: 5,
-      titulo: 'Muestra de arte interdisciplinaria',
-      categoria: 'Arte',
+      titulo: 'Administración de Usuarios y Permisos en Linux',
+      categoria: 'Laboratorio de Sistemas Operativos 2',
       estado: false,
     },
   ]
