@@ -19,7 +19,7 @@ body {
 /* HEADER */
 
 .header {
-  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  background: linear-gradient(135deg, #3b1f6e, #6b3fa0);
   color: white;
   text-align: center;
   padding: 50px 20px;
@@ -39,7 +39,7 @@ body {
 /* NAV */
 
 .nav {
-  background-color: #222;
+  background-color: #3b1f6e;
   padding: 15px 0;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 .nav a:hover {
-  color: #8ea2ff;
+  color: #d4a017;
 }
 
 /* MAIN */
@@ -87,7 +87,7 @@ body {
 }
 
 .seccion-etiqueta {
-  color: #6366f1;
+  color: #6b3fa0;
   font-weight: bold;
   margin-bottom: 5px;
 }
@@ -151,7 +151,7 @@ body {
   padding: 13px;
   border: none;
   border-radius: 10px;
-  background-color: #4f46e5;
+  background-color: #7b2d42;
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -159,7 +159,7 @@ body {
 }
 
 .formulario button:hover {
-  background-color: #4338ca;
+  background-color: #5e1f30;
 }
 
 /* CARDS */
@@ -188,7 +188,7 @@ body {
 }
 
 .proyecto-card__categoria {
-  color: #6366f1;
+  color: #6b3fa0;
   font-weight: bold;
   margin-bottom: 8px;
 }
@@ -236,7 +236,7 @@ body {
 
 .footer {
   margin-top: auto;
-  background-color: #222;
+  background-color: #3b1f6e;
   color: white;
   text-align: center;
   padding: 20px;
