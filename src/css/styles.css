@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f6f9;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+
+.header {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.header h1 {
+  font-size: 2.3rem;
+  margin-bottom: 10px;
+}
+
+.header h2 {
+  font-size: 1.1rem;
+  font-weight: normal;
+  opacity: 0.9;
+}
+
+/* NAV */
+
+.nav {
+  background-color: #222;
+  padding: 15px 0;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #8ea2ff;
+}
+
+/* MAIN */
+
+.contenido {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  flex: 1;
+}
+
+/* SECCION PROYECTOS */
+
+.proyectos {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.proyectos__encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.seccion-etiqueta {
+  color: #6366f1;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.proyectos__encabezado h2 {
+  font-size: 2rem;
+}
+
+/* BUSCADOR */
+
+.buscador {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.buscador input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  min-width: 250px;
+}
+
+/* FORMULARIO */
+
+.formulario {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.08);
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  align-items: end;
+}
+
+.formulario label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formulario span {
+  font-weight: bold;
+}
+
+.formulario input[type="text"] {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.checkbox-campo {
+  flex-direction: row !important;
+  align-items: center;
+  gap: 10px;
+}
+
+.formulario button {
+  padding: 13px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4f46e5;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.formulario button:hover {
+  background-color: #4338ca;
+}
+
+/* CARDS */
+
+.proyectos__grilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.proyecto-card {
+  background: white;
+  padding: 22px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  transition: transform 0.2s;
+}
+
+.proyecto-card:hover {
+  transform: translateY(-5px);
+}
+
+.proyecto-card__categoria {
+  color: #6366f1;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.proyecto-card h3 {
+  font-size: 1.3rem;
+}
+
+.proyecto-card__estado {
+  background: #dcfce7;
+  color: #166534;
+  padding: 8px 14px;
+  border-radius: 999px;
+  width: fit-content;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/* BOTON ELIMINAR */
+
+.boton-secundario {
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #ef4444;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.boton-secundario:hover {
+  background-color: #dc2626;
+}
+
+/* SIN RESULTADOS */
+
+.sin-resultados {
+  text-align: center;
+  padding: 30px;
+  color: #666;
+}
+
+/* FOOTER */
+
+.footer {
+  margin-top: auto;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* PERFIL */
+
+.perfil {
+  background: white;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.08);
+
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.perfil img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.datos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.datos p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.7rem;
+  }
+
+  .nav ul {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .perfil {
+    flex-direction: column;
+    text-align: center;
+  }
+}
