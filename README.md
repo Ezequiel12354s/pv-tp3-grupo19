@@ -1,10 +1,12 @@
 Trabajo Práctico N°3 – Programación Visual (React) | Grupo 19
+
 👥 Integrantes
 
     Alejandro Imanol Cruz
     GitHub: @alejandro1611
 
-    Alfredo Ezequiel Gonzalez Lopez GitHub: @Ezequiel12354s
+    Alfredo Ezequiel Gonzalez Lopez 
+    GitHub: @Ezequiel12354s
 
     Roberto Alex Moraña Castillo
     GitHub: @robertoalexmoranacastillo-glitch
